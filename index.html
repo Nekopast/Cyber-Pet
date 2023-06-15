@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="container">
+    <div class="bar">
+         <progress id="health1" value="100" max="100"></progress>
+         <progress id="health2" value="100" max="100"></progress>
+         <progress id="health3" value="100" max="100"></progress>
+         <progress id="health4" value="100" max="100"></progress>
+    </div>
+    <div class="btn">
+         <button onclick="document.getElementById('health1').value += 10">Health</button>
+         <button onclick="document.getElementById('health2').value += 10">Food</button>    
+         <button onclick="document.getElementById('health2').value += 10">Water</button>
+         <button onclick="document.getElementById('health3').value += 10">Activity1</button>
+         <button onclick="document.getElementById('health4').value += 10">Activity2</button>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>

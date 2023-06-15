@@ -1,0 +1,22 @@
+.bar progress {
+    display: block;
+    width: 80%;
+    height: 20px;
+}
+
+.btn button {
+    position: relative;
+    size: 10px;
+    border: none;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+.container {
+    content: normal;
+    padding: 16px;
+    background-color:purple;
+}

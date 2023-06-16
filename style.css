@@ -1,27 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Righteous&family=Source+Code+Pro:wght@300&display=swap');
-
-@font-face {
-    font-family: 'pixeloid_monoregular';
-    src: url('font/pixeloid/pixeloidmono.woff2') format('woff2'),
-         url('font/pixeloid/pixeloidmono.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+.bar progress {
+    display: block;
+    width: 80%;
+    height: 20px;
 }
 
-@font-face {
-    font-family: 'pixeloid_sansregular';
-    src: url('font/pixeloid/pixeloidsans.woff2') format('woff2'),
-         url('font/pixeloid/pixeloidsans.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'pixeloid_sansbold';
-    src: url('font/pixeloid/pixeloidsansbold.woff2') format('woff2'),
-         url('font/pixeloid/pixeloidsansbold.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+.btn button {
+    position: relative;
+    size: 10px;
+    border: none;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 body {
@@ -40,5 +29,11 @@ body {
 
 #selectAnimal {
     display:flex;
-    flex-direction: column;
+    flex-direction: column
+}
+
+.container {
+    content: normal;
+    padding: 16px;
+    background-color:purple;
 }
